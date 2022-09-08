@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  ashuapp1:
+    image: jaipalapp:v1
+    build: .
+    container_name: jaipal1v2
+    ports:
+      - "8087:80"
